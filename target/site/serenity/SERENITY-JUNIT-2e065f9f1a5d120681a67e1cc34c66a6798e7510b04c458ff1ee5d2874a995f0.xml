@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Prueba de carga masiva" skipped="0" tests="1" time="72.08" timestamp="2024-09-16 04:37:32"><testcase name="Realizar una Carga Masiva Exitosa"><error message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Generar Archivo de Control')] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'PE-HO-ACH-013', ip: '192.168.10.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'&#10;Driver info: net.thucydides.core.webdriver.WebDriverFacade&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'PE-HO-ACH-013', ip: '192.168.10.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Generar Archivo de Control')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PE-HO-ACH-013', ip: '192.168.10.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PE-HO-ACH-013', ip: '192.168.10.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(text(),'Generar Archivo de Control')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PE-HO-ACH-013', ip: '192.168.10.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PE-HO-ACH-013', ip: '192.168.10.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: unknown&#13;
+com.integra.ach.utils.EsperaExplicita.esperaexplilicitaClick(EsperaExplicita.java:14)&#13;
+com.integra.ach.steps.IntegraCargaMasivaStep.clickBotonGenerarArchivoControl(IntegraCargaMasivaStep.java:34)&#13;
+com.integra.ach.stepDefinitions.CargaMasivaExitosoStepDefinition.ingresarAModulodeCiclosYRealizoCargaMasiva(CargaMasivaExitosoStepDefinition.java:37)&#13;
+✽.Ingresar a carga masiva y realizo la carga masiva(src/test/resources/com.integra.ach.features/CargaMasiva.feature:7)&#13;
+</system-err></testcase></testsuite>
